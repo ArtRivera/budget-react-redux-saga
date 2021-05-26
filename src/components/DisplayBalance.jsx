@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Statistic } from "semantic-ui-react";
+import { Statistic } from "semantic-ui-react";
 
 export const DisplayBalance = ({ color="black", title, value, size="tiny" }) => {
   return (
