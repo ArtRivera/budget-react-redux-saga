@@ -7,7 +7,7 @@ export const ButtonSaveOrCancel = ({addEntry}) => {
       <Button>Cancel</Button>
       <Button.Or />
       <Button 
-      onClick={addEntry()}
+      onClick={() => addEntry()}
       primary>Ok</Button>
     </Button.Group>
   );
