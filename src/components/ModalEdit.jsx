@@ -21,6 +21,8 @@ export const ModalEdit = ({isOpen,id,entries}) => {
       setIsExpense(entry.isExpense);
     }
     console.log('MODAL ABIERTO CONID',id);
+    
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isOpen])
 
   const dispatch = useDispatch();

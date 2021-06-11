@@ -7,7 +7,6 @@ import { modalReducer } from "../reducers/modal.reducer";
 import { composeWithDevTools } from 'redux-devtools-extension';
 //REDUX-SAGA
 import createSagaMiddleware from 'redux-saga';
-import { count, testSaga } from "../sagas/sagas";
 import rootSaga from "../sagas";
 const sagaMiddleWare = createSagaMiddleware();
 
